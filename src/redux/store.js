@@ -13,6 +13,8 @@ import storage from "redux-persist/lib/storage"; // defaults to localStorage for
 import { contactsReducer } from "./contactsSlice";
 import { filtersReducer } from "./filtersSlice";
 
+
+
 const contactsPersistConfig = {
   key: "contacts",
   storage,
